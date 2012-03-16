@@ -1,0 +1,9 @@
+Przykładowy Map reduce dla mongo
+
+Kompilacja przy użyciu Apache Maven:
+mvn package appassembler:assemble
+
+Użycie
+mongo-mr -p <port> -d <baza> -c <kolekcja>
+
+Zawartość kolekcji jestz zawartością bazy: albums (http://couch.inf.ug.edu.pl/_utils/).
