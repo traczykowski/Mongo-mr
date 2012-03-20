@@ -7,3 +7,5 @@ Użycie
 mongo-mr -p <port> -d <baza> -c <kolekcja>
 
 Zawartość kolekcji jestz zawartością bazy: albums (http://couch.inf.ug.edu.pl/_utils/).
+
+Aktualnie nie ma mozliwości przekazywania kodu funkcji map i reduce w formie innej niż JavaScript. Z powodu takiego że wymusza to Mongo java Driver.
