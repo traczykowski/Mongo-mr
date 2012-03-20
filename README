@@ -1,9 +1,9 @@
 Przykładowy Map reduce dla mongo wyliczający ile jest albumów w bazie danego artysty.
 
-```json
+Przykładowy fragment danych wynikowych:
 { "_id" : "Sparklehorse" , "value" : 1.0}
 { "_id" : "Sparks" , "value" : 2.0}
-```
+
 
 Kompilacja przy użyciu Apache Maven:
 mvn package appassembler:assemble
